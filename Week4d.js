@@ -9,7 +9,7 @@ for (let i = 0; i < 5; i++) {
 let text = "";
 let i = 0;
 do {
-    text = text + 1 + "<br>";
+    text = text + i + "<br>";
     i++;
 }
 while(i < 5);
