@@ -8,6 +8,7 @@ function mainScript(){
     numberGuesses = 0
 
     while(numberGuesses<5){
+        console.log("Guess the Number")
         player = Number(prompt("Guess a Number between 1 and 100"))
         
         numberGuesses+=1
